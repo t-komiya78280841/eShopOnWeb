@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-komiya
-  LOCATION: southeast asia
+  LOCATION: southeastasia
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 3e036bc1-a381-4d62-a43c-d6fd1039dec6
   WEBAPP-NAME: eshoponweb-webapp-komiya
